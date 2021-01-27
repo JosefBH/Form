@@ -1,0 +1,56 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10;
+  text-align: left;
+  font-size: 22px;
+  padding: 30px;
+}
+hr {
+  overflow: visible;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #203647;
+  color: white;
+}
+.form {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.textfields:hover {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #4da8da;
+  color: #eefbfb;
+}
+.button {
+  margin: auto;
+  display: block;
+  scroll-padding-top: 30px;
+  width : 190px;
+  background-color : whitesmoke;
+  color : black;
+  border-radius : 20px;
+
+}
+.button:hover {
+    background-color : black;
+    color : whitesmoke;
+    width : 190px;
+    border-radius : 20px;
+
+}
+.getintouch {
+    color : #007CC7;
+    font-family: sans-serif;
+}
