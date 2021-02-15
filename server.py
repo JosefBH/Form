@@ -16,18 +16,19 @@ def home():
     else:
         print("None")
         return "erreur : echec"
-@app.route('/', methods=['POST', 'GET']) 
+@app.route('/')
 def thing():
-    res = request.form
-    result = request.args.get
-    if request.method == "POST" and res is not None:
-        print(res)
-        return 'you cant imagine how happy i am ! '
-    elif request.method == "POST" and result != None :
-        print(result)
-    else:
-        print("None")
-        return "erreur : echec"
+    return render_template('base.html')
+#    res = request.form
+#    result = request.args.get
+#    if request.method == "POST" and res is not None:
+#        print(res)
+#        return 'you cant imagine how happy i am ! '
+#    elif request.method == "POST" and result != None :
+#        print(result)
+#    else:
+#        print("None")
+#        return "erreur : echec"
 
 
 
